@@ -1,3 +1,3 @@
-const ajs2 = require('@maria-namira/ajs2');
+const ajs = require('@maria-namira/ajs');
 
-console.log(ajs2.info());
+console.log(ajs.info());
