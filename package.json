@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
+    "compile": "webpack --config webpack.config.js",
     "build": "webpack --mode production",
     "lint": "eslint .",
     "test": "jest",
@@ -35,11 +36,12 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
   },
-  "dependencies": {
-    "core-js": "^3.6.5"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maria-namira/new-ajs.git"
+  },
+   "homepage": "https://github.com/maria-namira/new-ajs#readme",
+  "dependencies": {
+    "@maria-namira/ajs2": "1.0.0"
   }
 }
